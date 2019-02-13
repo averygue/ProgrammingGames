@@ -102,7 +102,7 @@ public class assignment1_Guething extends Application {
 
 	void render(GraphicsContext gc) {    
 		
-		gc.setFill( Color.PALETURQUOISE);
+		gc.setFill( Color.BLACK);
         gc.fillRect( 0, 0, 600, 500);
 		
         gc.setFill( Color.MEDIUMPURPLE);
@@ -111,7 +111,7 @@ public class assignment1_Guething extends Application {
         gc.fillOval(j, 400, 100, 100);
         gc.setFill( Color.DARKMAGENTA);
         gc.fillOval(k, 350, 150, 150);
-        
+       
         gc.setStroke(Color.color(Math.random(), Math.random(), Math.random()));
         gc.strokeLine(0, a, a,0);
         gc.setStroke(Color.color(Math.random(), Math.random(), Math.random()));
